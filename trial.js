@@ -1,13 +1,14 @@
-// let myTitle = document.getElementById("head").innerHTML
-// console.log(myTitle)
-// let myTitle2 = document.getElementById("head").firstChild.nodeValue
-// console.log(myTitle2)
-// console.log(document.getElementById("head"))
-// let myTitle3 = document.getElementById("head").childNodes[0].nodeValue
-// console.log(myTitle3)
+// create paragraph 
+// creates at the end of body inside it 
 
+const parag = document.createElement("p")
+const node = document.createTextNode("This is New")
+parag.appendChild(node)
+// document.body.appendChild(parag)
+// console.log(document.body.innerHTML)
 
-console.log(document.head.innerHTML)
+const element = document.getElementById("div1")
+element.appendChild(parag)
 console.log(document.body.innerHTML)
-console.log(document.documentElement.innerHTML)
-console.log(document.getElementById("head").nodeName)
+ 
+
