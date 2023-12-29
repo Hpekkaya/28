@@ -12,7 +12,7 @@ const element = document.getElementById("div1")
 const child = document.getElementById("p3");
 element.insertBefore(para,child)
 para.setAttribute("id","p4")
-
+child.remove()
 
 
 
