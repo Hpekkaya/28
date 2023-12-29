@@ -1,23 +1,12 @@
-// create paragraph 
-// creates at the end of body inside it 
-
-const para = document.createElement("p")
-const node = document.createTextNode("This is new")
-para.appendChild(node)
-// document.body.appendChild(para)
-// console.log(document.documentElement.innerHTML)
-const element = document.getElementById("div1")
-// element.appendChild(para)
-// console.log(document.body.innerHTML)
-const child = document.getElementById("p3");
-element.insertBefore(para,child)
-para.setAttribute("id","p4")
-child.remove()
+// NodeList
 
 
+const myNoodeList = document.querySelectorAll("p")
+console.log(myNoodeList[0])
 
-const bodyTest = document.body.innerHTML
-console.log(bodyTest)
+const myNoodeList2 = document.querySelector("#p6")
+console.log(myNoodeList2)
+
 
 
  
