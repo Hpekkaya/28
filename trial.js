@@ -1,12 +1,17 @@
-// NodeList
+// Siblings 
 
+const myNode = document.querySelector("#p2")
+console.log("Current  :", myNode.innerHTML)
+const previous = myNode.previousElementSibling.innerHTML
+console.log("Previos  :", previous)
+const next = myNode.nextElementSibling.innerHTML
+console.log("Next  :", next)
 
-const myNoodeList = document.querySelectorAll("p")
-console.log(myNoodeList[0])
+const parent = myNode.parentNode.innerHTML
+console.log("Parent  :", parent)
 
-const myNoodeList2 = document.querySelector("#p6")
-console.log(myNoodeList2)
-
+const point = myNode.parentNode.previousElementSibling.previousElementSibling.innerHTML
+console.log("Top  :", point)
 
 
  
