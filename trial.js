@@ -7,8 +7,11 @@ parag.appendChild(node)
 // document.body.appendChild(parag)
 // console.log(document.body.innerHTML)
 
+const bodyTest = document.body.innerHTML
 const element = document.getElementById("div1")
 element.appendChild(parag)
-console.log(document.body.innerHTML)
+console.log(bodyTest)
+
+
  
 
