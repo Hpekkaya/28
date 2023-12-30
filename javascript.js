@@ -50,4 +50,14 @@
 // const point = myNode.parentNode.previousElementSibling.previousElementSibling.innerHTML
 // console.log("Top  :", point)
 
+// storage_api 
+// localStorage.setItem("name","Mustafa Önal")
+// const item = localStorage.getItem("name")
+// console.log(item)
 
+// // Problem1 : Local storage
+ 
+// const name = {name:"mustafa",surname:"onal"}
+// localStorage.setItem("name",JSON.stringify(name))
+// const item2 = JSON.parse(localStorage.getItem("name"))
+// console.log(item2)
